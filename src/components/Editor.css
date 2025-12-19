@@ -1,10 +1,8 @@
-/* ===== Editor Container ===== */
 .editor-container {
   max-width: 900px;
   margin: 20px auto;
 }
 
-/* ===== Buttons ===== */
 .editor-actions {
   margin-bottom: 10px;
 }
@@ -18,19 +16,10 @@
   margin-right: 10px;
 }
 
-.btn.primary {
-  background: #3498db;
-}
+.btn.primary { background: #3498db; }
+.btn.success { background: #27ae60; }
+.btn.danger { background: #e74c3c; }
 
-.btn.success {
-  background: #27ae60;
-}
-
-.btn.danger {
-  background: #e74c3c;
-}
-
-/* ===== Category Dropdown ===== */
 .category-wrapper {
   position: relative;
   margin-bottom: 15px;
@@ -61,11 +50,8 @@
   align-items: center;
 }
 
-.category-item span {
-  margin-left: 8px;
-}
+.category-item span { margin-left: 8px; }
 
-/* ===== Progress Bar ===== */
 .progress-bar {
   height: 6px;
   background: #eee;
@@ -77,7 +63,6 @@
   background: #2ecc71;
 }
 
-/* ===== Preview Pane ===== */
 .preview-pane {
   border: 1px solid #ccc;
   padding: 20px;
@@ -89,12 +74,11 @@
   height: auto;
 }
 
-/* ===== ReactQuill Editor ===== */
 .editor-quill {
   height: 400px;
+  margin-bottom: 50px;
 }
 
-/* ===== Modal Overlay ===== */
 .modal-overlay {
   position: fixed;
   inset: 0;
@@ -105,48 +89,16 @@
   z-index: 1000;
 }
 
-/* ===== Modal Box ===== */
 .modal-box {
   background: #fff;
-  padding: 20px;
-  width: 300px;
-  border-radius: 6px;
-}
-
-.modal-box input {
-  width: 100%;
-  padding: 8px;
-  margin-top: 8px;
-}
-
-/* ===== Modal Actions ===== */
-.modal-actions {
-  margin-top: 12px;
-  display: flex;
-  justify-content: flex-end;
-  gap: 10px;
-}
-/* ===== Modal Overlay ===== */
-.modal-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.4);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-}
-
-/* ===== Modal Box ===== */
-.modal-box {
-  background: #fff;
-  padding: 25px 30px; 
-  width: 320px;
-  border-radius: 8px; 
-  box-shadow: 0 4px 12px rgba(0,0,0,0.25); 
+  padding: 25px 30px;
+  width: 450px; /* Increased width to prevent input overflow */
+  max-width: 90%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
   display: flex;
   flex-direction: column;
-  gap: 12px; 
+  gap: 12px;
 }
 
 .modal-box h3 {
@@ -157,16 +109,16 @@
 
 .modal-box input {
   width: 100%;
-  padding: 10px 12px; 
+  box-sizing: border-box; /* Crucial: ensures padding doesn't push input out */
+  padding: 10px 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 14px;
 }
 
-/* ===== Modal Actions ===== */
 .modal-actions {
   display: flex;
   justify-content: flex-end;
   gap: 10px;
-  margin-top: 15px; 
+  margin-top: 15px;
 }
