@@ -7,8 +7,7 @@ A user-friendly blog creation platform built with **React** and **Vite**, featur
 ## Table of Contents
 
 - [Demo](#demo)  
-- [Features](#features)  
-- [Project Structure](#project-structure)  
+- [Features](#features)   
 - [Setup & Installation](#setup--installation)  
 - [Component Overview](#component-overview)  
 - [Design Decisions](#design-decisions)  
@@ -17,7 +16,7 @@ A user-friendly blog creation platform built with **React** and **Vite**, featur
 ---
 
 ## Demo
-
+- https://drive.google.com/file/d/1cuewHFl8hNhLAmy9ngNIFcOWE2M8vwro/view?usp=drive_link
 - Create and format blog posts using bold, italics, headings, and lists.  
 - Upload images with a live progress bar.  
 - Insert hyperlinks via a modal window.  
@@ -28,6 +27,9 @@ A user-friendly blog creation platform built with **React** and **Vite**, featur
 - Delete posts when needed.
 
 ---
+## Deployed URL:
+
+https://rich-text-blog-platform-git-main-nandinis-projects-c68e2b2d.vercel.app/ 
 
 ## Features
 
@@ -61,33 +63,6 @@ A user-friendly blog creation platform built with **React** and **Vite**, featur
 - Filter posts by category  
 - Delete posts functionality  
 
----
-
-## Project Structure
-
-blog-editor-platform/
-│
-├── node_modules/
-├── public/
-│ └── index.html
-│
-├── src/
-│ ├── components/ 
-│ │ ├── Editor.jsx
-│ │ └── Editor.css
-│ ├── pages/ 
-│ │ └── PostList.jsx
-│ ├── App.jsx  
-│ └── main.jsx
-├── .gitignore
-├── package.json
-├── package-lock.json
-├── editor-icon.png
-├── README.md
-└── vite.config.js
-
----
-
 ## Setup & Installation
 
 ### Prerequisites
@@ -112,9 +87,7 @@ npm install
 
 npm run dev
 
-4. Open the app in your browser:
-
-http://localhost:5173
+4. Open the app in your browser
 
 ## Component Overview
 ### Editor.jsx
