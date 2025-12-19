@@ -1,0 +1,128 @@
+.postlist-container {
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+.search-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.category-wrapper {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.category-box {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-menu {
+  position: absolute;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 4px;
+  z-index: 10;
+}
+
+.category-item {
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+}
+
+.post-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background: #fff;
+  overflow: hidden; /* Ensures content stay inside the card */
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.post-categories .tag {
+  display: inline-block;
+  background: #eee;
+  padding: 5px 10px;
+  border-radius: 12px;
+  margin-right: 6px;
+  font-size: 12px;
+}
+
+.post-content {
+  margin-top: 15px;
+  line-height: 1.6;
+  word-wrap: break-word; /* Prevents text overflow */
+}
+
+/* IMAGE FIX: This makes images responsive and fully visible */
+.post-content img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block;
+  margin: 15px auto;
+  border-radius: 4px;
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-box {
+  background: #fff;
+  padding: 25px;
+  width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.btn {
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn.red { background: #e74c3c; }
+.btn.gray { background: #7f8c8d; }
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
