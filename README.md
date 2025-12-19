@@ -10,7 +10,7 @@ A user-friendly blog creation platform built with **React** and **Vite**, featur
 - [Features](#features)   
 - [Setup & Installation](#setup--installation)  
 - [Component Overview](#component-overview)  
-- [Design Decisions](#design-decisions)  
+- [Design Decisions](#design-decisions)
  
 
 ---
